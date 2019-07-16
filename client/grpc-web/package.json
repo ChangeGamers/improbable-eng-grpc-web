@@ -1,5 +1,5 @@
 {
-  "name": "@improbable-eng/grpc-web",
+  "name": "@minga/improbable-eng-grpc-web",
   "version": "0.9.6",
   "description": "gRPC-Web client for browsers (JS/TS)",
   "main": "dist/index.js",
