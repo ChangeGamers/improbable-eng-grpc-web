@@ -2,3 +2,10 @@
 **/build/
 **/node_modules/
 npm-debug.log
+
+/grpc-web.umd.js
+
+# Angular bazel generated when linking /shrug
+/src/**/*.js
+/src/**/*.metadata.json
+/src/**/*.ngsummary.json

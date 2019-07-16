@@ -3,12 +3,10 @@
   "version": "0.9.6",
   "description": "gRPC-Web client for browsers (JS/TS)",
   "main": "dist/index.js",
-  "browser": "dist/grpc-web-client.umd.js",
-  "types": "dist/typings/index.d.ts",
   "scripts": {
     "clean": "rimraf dist",
     "postbootstrap": "npm run lib:build",
-    "lib:build": "npm run clean && tsc"
+    "lib:build": "npm run clean && tsc && webpack"
   },
   "publishConfig": {
     "access": "public"
