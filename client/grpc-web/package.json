@@ -2,13 +2,13 @@
   "name": "@improbable-eng/grpc-web",
   "version": "0.9.6",
   "description": "gRPC-Web client for browsers (JS/TS)",
-  "main": "dist/grpc-web-client.js",
+  "main": "dist/index.js",
   "browser": "dist/grpc-web-client.umd.js",
   "types": "dist/typings/index.d.ts",
   "scripts": {
-    "clean": "rm -rf dist",
+    "clean": "rimraf dist",
     "postbootstrap": "npm run lib:build",
-    "lib:build": "npm run clean && webpack"
+    "lib:build": "npm run clean && tsc"
   },
   "publishConfig": {
     "access": "public"
@@ -39,6 +39,7 @@
     "@types/google-protobuf": "^3.2.5",
     "@types/node": "^7.0.5",
     "google-protobuf": "^3.2.0",
+    "rimraf": "^2.6.3",
     "ts-loader": "^6.0.1",
     "typescript": "3.5.1",
     "webpack": "^4.29.3",
