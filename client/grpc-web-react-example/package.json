@@ -15,7 +15,7 @@
   "license": "none",
   "dependencies": {
     "@improbable-eng/grpc-web": "^0.9.6",
-    "google-protobuf": "^3.6.1"
+    "google-protobuf": "^3.21.4"
   },
   "devDependencies": {
     "@types/google-protobuf": "^3.2.5",
